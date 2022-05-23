@@ -1,0 +1,16 @@
+body { margin: 30px; }
+
+.header-div {
+    
+    background-color: #EBEDEF;
+    width: 200px;
+    height: auto;
+}
+
+.header-div h1 { color: blue; }
+
+.header-div h2 { color: #B833FF; }
+
+.header-div h3 { color:rgb(255, 128, 0) }
+
+.header-div h4 { color:hsl(204, 70%, 53%) }
