@@ -13,11 +13,10 @@
 /* --- HEADER IMPLEMENTATION --- */
 header {
 
-    
     padding: 0px 150px;
     width: auto;
-    height: 800px;
     max-width: 100%;
+    height: 570px;
     background-color: #1F2937;
 }
 
@@ -56,22 +55,24 @@ header {
 }
 
 .header-main-content-container {
+    
     width: auto;
     max-width: 100%;
-    height: 500px;
+    height: auto;
+    max-height: 230px;
     margin-top: 110px;
     display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-around;
-
-    background-color: white;/*  #1F2937 */
+    
+    background-color: #1F2937;
 }
 
 .header-main-content {
-
-    background-color:darkgrey;
-    width: auto;
+    
+    background-color:#1F2937;
+    width: 50%;
     height: auto;
+    padding-right: 20px;
+    
 }
 
 .header-main-content h1 {
@@ -79,28 +80,46 @@ header {
     font-size: 48px;
     font-weight: 800px;
     color: #F9FAF8;
-
 }
 
 .header-main-content p {
     font-size: 18px;
     color: #E5E7EB;
 }
-.header-main-content-button button {
-    width: 100px;
 
+.header-main-content-button { margin-top: 10px; /* Sign up Button < Div >  */ }
+
+.header-main-content-button button { /* Sign up Button */
+
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    
     font-size: 20px;
     background-color: #3882F6;
-    border-radius: 5px;
+    color: #E5E7EB;
 }
 
-.header-main-content-image img {
-    width: 350px;
+.header-main-content-placeholder {
+    width: 50%;
     height: auto;
 }
 
+.placeholder {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 230px;
+
+    background-color: #6d747d;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 /* --- MAIN BODY  IMPLEMENTATION --- */
-body {
-
-
+main {
+    
 }
