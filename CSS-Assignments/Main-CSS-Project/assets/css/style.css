@@ -3,6 +3,11 @@
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Robot-ligthItalic';
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
 * {
     /* border: 1px solid red; */
     font-family: 'Robot', sans-serif;
@@ -203,6 +208,7 @@ main {
 }
 
 .quote p {
+    font-family: 'Robot-ligthItalic'; /* light Italic*/
     color: #1F2937;
     font-size: 36px;
     font-weight: 100;
