@@ -27,9 +27,6 @@ header {
     justify-content: space-between;
 }
 
-.topnav-headerLogo {
-
-}
 
 .topnav-content {
 
@@ -121,14 +118,15 @@ header {
 
 /* --- MAIN BODY  IMPLEMENTATION --- */
 main {
-    background-color:aquamarine;
+    background-color: #FFFFFF;
     width: auto;
     max-width: 100%;
     height: 1100px;
 }
 
+/* MAIN CONTAINER */
 #container {
-    background-color: gray;
+    background-color: #FFFFFF;
     width: auto;
     max-width: 100%;
     height: 800px;
@@ -136,27 +134,151 @@ main {
 
 .random-information-container {
 
-    background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
     width: auto;
-    height: 600px;
-    margin-top: 55px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.random-information-container h1 {
+    
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
 }
 
 .random-information {
-    background-color: blanchedalmond;
-    width: 1380px;
-    height: 500px;
 
+    width: 1380px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .information {
-    background-color: black;
+    
+    width: 230px;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.information p { 
+    color: #4b5563; 
+    padding-top: 5px;
+    text-align: center;
+}
+
+.information-item {
+
+    border-radius: 15px;
+    border: 3px solid #3882F6;
     width: 170px;
     height: 170px;
+}
 
+.quote-container {
+    background-color: #E5E7EB;
+    width: auto;
+    max-width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+
+    width: auto;
+    height: auto;
+}
+
+.quote p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-container .thor {
+
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-container {
+
+    width: auto;
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content .text {
+
+    width: auto;
+    height: auto;
+    margin-right: 130px;
+}
+
+.product-content .text h2 { color: #E5E7EB; }
+
+.product-content .text p { color: #dddfe4;; }
+
+.product-content {
+    
+    background-color: #3882F6;
+    border-radius: 15px;
+    width: 900px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.product-button {
+    width: auto;
+    height: auto;
+}
+
+.product-button button {
+
+    width: 130px;
+    height: 40px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+footer {
+
+    background-color: #1F2937;
+    width: auto;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2{
+    color: #ffffff;
+    font-size: 18px;
 }
