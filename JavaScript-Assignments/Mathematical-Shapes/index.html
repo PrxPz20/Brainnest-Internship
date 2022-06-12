@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Shapes</title>
+</head>
+
+<body>
+
+    <script>
+        
+        diagonal_Function(9);
+        area_Function(5,6,7);
+        circle_Function(4);
+        
+        // Assignment 2 a
+        function diagonal_Function(square_length_side) {
+            
+            var diagonal;
+            diagonal = Math.sqrt(2) * square_length_side;
+            console.log( `Diagonal of a Square: ${diagonal}` );
+        }
+        
+        // Assignment 2 b
+        function area_Function(a_side, b_base, c_side) {
+            
+            var s = (a_side + b_base + c_side ) / 2;
+            var area = Math.sqrt( s * ( (s-a_side) * (s-b_base) * (s-c_side) ) );
+            
+            console.log(`Triangle area is: ${area}`)
+        }
+        
+        // Assignment 2 c
+        function circle_Function(radius) {
+            
+            const PI = 3.14159;
+
+            var area_of_circle = radius ** 2 * PI;
+            var circumference = 2 * PI * radius;
+            
+            console.log(`Area of a circle: ${area_of_circle}`);
+            console.log(`Circumference of Circle: ${circumference}`);
+        }
+
+    </script>
+
+
+
+</body>
+</html>

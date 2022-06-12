@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.game-content {
+    /* background-color: bisque; */
+    width: 400px;
+    height: 400px;
+}
+
+button { font-size: 25px; }
+
+.game-content-score {
+
+    /* background-color: coral; */
+    width: 400px;
+    height: 200px;
+}
+
+.game-content-buttons {
+
+    /* background-color: cadetblue; */
+    width: 400px;
+    height: 200px;
+}

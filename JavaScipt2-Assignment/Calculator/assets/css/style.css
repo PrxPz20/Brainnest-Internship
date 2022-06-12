@@ -1,0 +1,19 @@
+* {
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+button {
+    font-size: 25px;
+}
+
+.calculator-buttons {
+
+    background-color: mediumaquamarine;
+    width: 500px;
+    height: 100px;
+}
