@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+      />
+      <title>Main Assignment</title>
+
+
+  </head>
+  <body>
+
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+
+      <form>
+
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" required/>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" required/>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required/>
+
+        <label for="user_password">Password</label>
+        <input type="password" id="user_password" required/>
+
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" required/>
+
+        <button type="submit">Submit</button>
+
+
+        <script>
+          const form = document.querySelector("form");
+
+          form.addEventListener('submit', e => {
+          
+            if ( !form.checkValidity() ) {
+              e.preventDefault();
+            }
+            form.classList.add('was-validated');
+          })
+        </script>
+
+      </form>
+
+    </div>
+    <!-- signup-box END -->
+
+  </body>
+</html>
